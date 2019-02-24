@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="185.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.Controllers.AddController">
+   <children>
+      <Label layoutX="33.0" layoutY="24.0" text="Title:" />
+      <TextField fx:id="taskTitle" layoutX="126.0" layoutY="19.0" promptText="Title of the task..." />
+      <TextField fx:id="taskContacts" layoutX="126.0" layoutY="142.0" promptText="Necessary contacts..." />
+      <Button fx:id="btnOk" layoutX="321.0" layoutY="19.0" mnemonicParsing="false" onAction="#add_action" text="Add task" />
+      <Label layoutX="35.0" layoutY="64.0" text="Description:" />
+      <Label layoutX="35.0" layoutY="107.0" text="Date&amp;Time:" />
+      <Label layoutX="33.0" layoutY="146.0" text="Contacts:" />
+      <TextField fx:id="taskDescription" layoutX="126.0" layoutY="60.0" prefHeight="25.0" prefWidth="149.0" promptText="Description of the task..." />
+      <TextField fx:id="taskDate" layoutX="126.0" layoutY="103.0" promptText="Appointed time..." />
+      <Button fx:id="btnCancel" layoutX="321.0" layoutY="60.0" mnemonicParsing="false" onAction="#cancel_action" prefHeight="25.0" prefWidth="63.0" text="Cancel" />
+   </children>
+</AnchorPane>
